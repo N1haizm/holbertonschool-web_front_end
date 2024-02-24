@@ -1,0 +1,12 @@
+@mixin marginrl($measure){
+    margin-right: $measure;
+    margin-left: $measure;
+}
+
+body {
+    @include marginrl(10px);
+}
+
+div {
+    @include marginrl(15px);
+}
