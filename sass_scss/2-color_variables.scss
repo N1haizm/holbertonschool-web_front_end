@@ -1,0 +1,15 @@
+$text-color1: #3D3D3D;
+$text-color2: #6D6D6D;
+
+body {
+    background-color: $text-color2;
+    color: $text-color1;
+}
+
+p {
+    color: $text-color1;
+}
+
+h2 {
+    background-color: $text-color2;
+}
