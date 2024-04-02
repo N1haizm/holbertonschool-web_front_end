@@ -29,8 +29,10 @@ function isPrime(num) {
 }
 
 const begin = performance.now()
-countPrimeNumbers(2,100);
+for(let i = 0; i < 100; i++) {
+    countPrimeNumbers(2,100);
+}
 const finish = performance.now()
 const NUMBER_OF_MILLISECONDS = finish - begin
 
-console.log(`Execution time of printing countPrimeNumbers was ${NUMBER_OF_MILLISECONDS} milliseconds.`)
+console.log(`Execution time of calculating prime numbers 100 times was ${NUMBER_OF_MILLISECONDS} milliseconds.`)
